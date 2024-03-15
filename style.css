@@ -18,11 +18,11 @@ nav{
   flex-direction:row;
   justify-content: end;
   font-size: 20px;
-  background-color: #B31312;
+  background-color: #2B3499;
 }
 
 h1 {
-  color: #FFD099; 
+  color: #3B3486; 
   background-color: #F0F0F0;
   display: flex;
   font-size: 500%;
@@ -42,7 +42,7 @@ h2 {text-align: center;
 
 nav a{
   border-radius: 12px;
-  background-color: #2B3499;
+  background-color: #3B3486;
   color: white;
   padding: 5px 15px;
   text-decoration: none; 
@@ -118,7 +118,7 @@ h3{
   color: #b62c11;
 }
 h4{
-  color: #ffffff;
+  color: #000000;
 }
 footer{
   display: flex;
