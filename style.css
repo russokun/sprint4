@@ -5,7 +5,9 @@
   outline: 1px solid red;
 }
 
-
+main{
+  background-color:aliceblue ;
+}
 
 #titulo{
   font-size: 2.5rem;
@@ -16,10 +18,12 @@ nav{
   flex-direction:row;
   justify-content: end;
   font-size: 20px;
+  background-color: #B31312;
 }
 
 h1 {
   color: #FFD099; 
+  background-color: #F0F0F0;
   display: flex;
   font-size: 500%;
   text-shadow: 
@@ -51,12 +55,11 @@ nav a[href="#"] {
 }
 
 p>a{
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #FF9209;
   color: white;
-  padding: 5px 14px;
+  padding: 2px 10px;
   text-decoration: underline; 
- 
 }
 
 #fondo{
@@ -78,15 +81,24 @@ p>a{
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  margin-top: 5rem;
-  height: 4rem;
+  margin-top: 6rem;
+  height: 6rem;
+}
+p{
+  font-size: large;
+}
+
+#contenedor-principal>strong{
+  text-align: center;
+  background-color:#ffffff;
+  font-size: x-large;
 }
 
 main>img{
   position: absolute;
   left: 5vw;
-  width: 175px;
   height: 175px;
+  top: 20rem;
 }
 
 #contenedor-principal{
@@ -101,7 +113,10 @@ main>img{
   min-height: 100vh;
   justify-content: space-between
 }
-
+h3{
+  font-size: 150%;
+  color: #b62c11;
+}
 h4{
   color: #ffffff;
 }
@@ -112,4 +127,95 @@ footer{
   padding: 10px;
   margin-top: 90px;
   background-color: #2B3499;
+}
+
+ol {
+  padding: 15px;
+  background-color: aliceblue;
+}
+
+.aparte{
+  display: flex;
+  margin-top: 4rem;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0; 
+}
+
+#cap{
+  text-decoration: underline;
+}
+
+table,th,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th{
+  background-color: rgb(245, 209, 8);
+}
+
+tfoot,tr{
+  background-color:antiquewhite;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  background-color: #ffffff;
+  flex: 1;
+  width: 45rem;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+button{
+  padding: 1rem;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+#contenedorform{
+  display: flex;
+}
+#contenedorform>aside{
+  float: right;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#abcd{
+  list-style: lower-alpha;
+}
+
+#images>img{
+  width: 400px;
+}
+#images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#mapas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
